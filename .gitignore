@@ -49,3 +49,6 @@ temp/
 # Prisma
 .env
 prisma/.env
+
+.claude/settings.local.json
+bash.exe.stackdump

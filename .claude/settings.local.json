@@ -1,8 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(for file in /root/git/claude-code-infrastructure-showcase/.claude/skills/frontend-dev-guidelines/resources/*.md)",
-      "Bash(done)"
+      "Bash(xcopy \"claude-guide\\hooks\\*.sh\" \"claude-guide-zh\\hooks\"\" /Y && xcopy \"claude-guidehooks*.ts\" \"claude-guide-zhhooks\"\" /Y)",
+      "Bash(xcopy \"claude-guide\\hooks\\*.json\" \"claude-guide-zh\\hooks\"\" /Y && xcopy \"claude-guide*.json\" \"claude-guide-zh\"\" /Y)",
+      "Bash(xcopy \"claude-guide\\skills\\skill-rules.json\" \"claude-guide-zh\\skills\"\" /Y)"
     ],
     "deny": [],
     "ask": []
